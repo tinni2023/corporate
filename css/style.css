@@ -1,0 +1,207 @@
+nav ul.navbar-nav{
+    margin-left: auto;
+}
+nav{
+   border-bottom: 3px solid #deedf0;
+}
+nav ul.navbar-nav a.active-link{
+    color: #bfbfbf;
+}
+nav ul.navbar-nav a.nav-link{
+    color: #bfbfbf
+}
+#banner1{
+    background-image: url(../img/mountains.jpg);
+    padding: 4rem 0;
+    color: #fff;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+}
+#banner1 h1{
+    font-size: xxx-large;
+}
+#banner1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #3293a6;
+    opacity: 0.75;
+    z-index: -1;
+}
+#banner1{
+    background-color: rgb(89, 167, 181);
+    text-align: center;
+    position: relative;
+}
+
+#banner1 a{
+    border: 1px solid;
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+#form{
+    padding: 3rem;
+    padding-left: 3rem;
+    background-color: #353a40;
+}
+#form button{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #3293a6;
+    color: #fff;
+}
+.form-control {
+    font-size: 14px;
+}
+#be{
+    padding: 3rem 0;
+}
+
+.my-card {
+    border: 1px solid #3292a6;
+    padding: 16px 32px;
+    text-align: center;
+    color: #339fc3;
+    border-radius: 5px;
+}
+.my-card p{
+    color: #252525;
+}
+.my-card2{ 
+    border: 1px solid #3292a6;
+    padding: 16px 32px;
+    text-align: center;
+    background-color: #3292a6;
+    color: #fff;
+    border-radius: 5px;
+}
+.my-card4{
+    border: 1px solid #3292a6;
+    padding: 16px 32px;
+    text-align: center;
+    background-color: #3292a6;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#why{
+    padding: 3rem 0;
+    background-color: #f9f9f9;
+}
+#why h2{
+    color: #3393a7;
+}
+#why a{
+    box-sizing: content-box;
+    border: 1px solid #dfdfdf;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: black;
+    text-align: center;
+    font-style: bold;
+}
+#why hr{
+    padding: 1rem 0;
+}
+
+
+.accordion-button{
+    text-align: center !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../img/down-arrow.svg);
+}
+.accordion-button::after{
+    background-image: url(../img/down-arrow.svg);
+}
+
+#blank{
+    padding: 1rem 0;
+}
+#meet{
+    background-color: #f9f9f9;
+    color: #3499b4;
+}
+#meet hr{
+    padding: 1rem 0;
+  
+}
+#meet p{
+    color: #252525;
+}
+.my-people {
+    position: relative;
+    border: 1px solid #dfdfdf;
+    padding: 50px 32px;
+    text-align: center;
+    color: #252525;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 32px auto;
+}
+/* .my-people img{
+    padding: 1rem 0;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: -50px;
+    transform: translate(-50%,0);
+} */
+#meet h4{
+    /* padding: 1rem 0; */
+    margin: 32px 0 5px 0;
+}
+#meet h6{
+    color: #6c747d;
+}
+#get{
+    padding: 3rem 0;
+    background-color: #f9f9f9;
+}
+#get button{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #3293a6;
+    color: #fff;
+    border: 0;
+    padding: 16px;
+}
+#copyright{
+    padding: 2rem 0;
+    background-color: #3293a6;
+    color: #fff;
+}
+#copyright h6{
+    text-align: right;
+}
+.aic{
+    align-items: center;
+}
+a.navbar-brand img{
+    width: 50px;
+}
+#meet .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%,0);
+    overflow: hidden;
+}
+#meet .avatar img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
